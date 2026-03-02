@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq';
+  src: url('/font/Jameel Noori Nastaleeq Kasheeda/Jameel Noori Nastaleeq Kasheeda.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===============================
+   URDU TYPOGRAPHY SYSTEM
+================================= */
+html[lang="ur"],
+html[lang="ur"] body,
+html[lang="ur"] button,
+html[lang="ur"] input,
+html[lang="ur"] textarea,
+html[lang="ur"] select {
+  font-family: 'Jameel Noori Nastaleeq', var(--font-poppins), sans-serif !important;
+}
+
+html[lang="ur"] h1,
+html[lang="ur"] h2,
+html[lang="ur"] h3,
+html[lang="ur"] h4,
+html[lang="ur"] h5,
+html[lang="ur"] h6 {
+  font-family: 'Jameel Noori Nastaleeq', var(--font-montserrat), sans-serif !important;
+  line-height: 1.4 !important;
+}
+
+html[lang="ur"] p {
+  line-height: 1.6 !important;
+  font-size: 1.15rem !important;
+}
+
+html[lang="ur"] span,
+html[lang="ur"] a,
+html[lang="ur"] li {
+  line-height: 1.5 !important;
+  font-size: 1.2rem !important;
+}
+
+/* ===============================
+   THEME COLORS (RARE GOLD & ONYX)
+================================= */
+@theme {
+  /* Main Accent: Liquid Gold (Premium and Constant) */
+  --color-primary: #4A8B82; 
+  --color-primary-dark: #AD8B46;
+  
+  --color-charcoal: var(--charcoal);
+  --color-light: var(--light-bg);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-onyx: #1A1A1B;
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-card: var(--card);
+}
+
+/* Tailwind v4 selector-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #FDFDFD;    /* Clean Off-White */
+  --foreground: #1A1A1B;    /* Deep Black (Logo Color) */
+  --muted: #71717A;         /* Gray */
+  --border: #E4E4E7;        /* Light Border */
+  --primary-foreground: #FFFFFF;
+  --charcoal: #F1F5F9;      /* Light surface */
+  --light-bg: #F8FAFC;
+  --card: #FFFFFF;
+}
+
+.dark {
+  --background: #1A1A1B;    /* Background turns into Logo color */
+  --foreground: #FDFDFD;    /* Text turns White */
+  --muted: #A1A1AA;         /* Gray */
+  --border: #2D2D30;        /* Dark Border */
+  --primary-foreground: #FFFFFF;
+  --charcoal: #121213;      /* Deep surface */
+  --light-bg: #242426;      /* Elevated dark surface */
+  --card: #1C1C1E;
+}
+
+/* ===============================
+   BASE TYPOGRAPHY
+================================= */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-poppins), sans-serif;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-montserrat), sans-serif;
+    line-height: 1.25;
+    color: var(--foreground);
+    @apply transition-colors duration-300;
+  }
+
+  h1 { font-size: clamp(2.5rem, 8vw, 5rem); font-weight: 800; }
+  h2 { font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 700; }
+  h3 { font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 600; }
+  h4 { font-size: clamp(1.25rem, 3vw, 1.75rem); font-weight: 600; }
+}
+
+/* Custom Scrollbar in Gold */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--charcoal);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A8B82; /* Gold Scrollbar */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AD8B46;
+}
+
+/* ===============================
+   PREMIUM UTILITIES
+================================= */
+@layer utilities {
+  /* Main CTA Button */
+  .btn-primary-gold {
+    @apply bg-primary text-primary-foreground hover:bg-primary-dark transition-all duration-300 rounded-md px-8 py-3 font-bold shadow-lg hover:shadow-primary/40 active:scale-95 text-center flex items-center justify-center;
+  }
+
+  /* Secondary Outline Button */
+  .btn-secondary-outline {
+    @apply border-2 border-foreground bg-transparent text-foreground hover:border-primary hover:text-primary transition-all duration-300 rounded-md px-8 py-3 font-bold active:scale-95 text-center flex items-center justify-center;
+  }
+
+  /* Premium Nav item with underline transition */
+  .nav-item {
+    @apply text-foreground hover:text-primary transition-colors duration-300 font-bold relative py-2 uppercase tracking-widest text-xs;
+  }
+  .nav-item::after {
+    @apply content-[''] absolute bottom-0 left-1/2 w-0 h-[1.5px] bg-primary transition-all duration-300 -translate-x-1/2;
+  }
+  .nav-item:hover::after {
+    @apply w-full;
+  }
+
+  /* Architectural Divider */
+  .rare-divider {
+    @apply w-px h-10 bg-primary/30 mx-4;
+  }
+
+  /* Modern Premium Card */
+  .rare-card {
+    @apply border border-border bg-card rounded-2xl transition-all duration-500 overflow-hidden;
+  }
+  .rare-card:hover {
+    @apply border-primary shadow-2xl shadow-primary/5 -translate-y-1;
+  }
+
+  /* High-end Emphasis */
+  .gold-hit {
+    @apply text-primary;
+  }
+
+  /* Glassmorphism */
+  .glass-card {
+  @apply bg-background/70 backdrop-blur-xl border border-primary/20;
+  }
+  .dark .glass-card {
+    @apply bg-black/60 backdrop-blur-xl border-primary-foreground/5;
+  }
+
+  /* Logo Inversion Utility */
+  .logo-invert {
+    @apply transition-all duration-300;
+  }
+  .dark .logo-invert {
+    @apply invert brightness-[2];
+  }
+
+  /* Premium Glows */
+  .glow-gold {
+    box-shadow: 0 0 25px rgba(197, 160, 89, 0.25);
+  }
+}
+
+/* Floating Animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
