@@ -104,7 +104,7 @@ const RunningProjects = ({ onDonateClick }: RunningProjectsProps) => {
                         {/* Icon */}
                         <div className="relative">
                             <div className="w-16 h-16 bg-muted/5 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-500">
-                                <School className="w-8 h-8 text-primary" />
+                                <GraduationCap className="w-8 h-8 text-primary" />
                             </div>
                         </div>
 
@@ -121,14 +121,14 @@ const RunningProjects = ({ onDonateClick }: RunningProjectsProps) => {
 
                             <div className="flex items-center gap-2 text-primary">
                                 <MapPin className="w-4 h-4" />
-                                <span className="text-sm font-bold">Munghopir, Karachi</span>
+                                <span className="text-sm font-bold">Karachi</span>
                             </div>
                         </div>
 
                         {/* Learn More Link */}
                         <div className="pt-4 flex items-center gap-2 text-primary font-bold text-sm opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0">
                             <span>View Full Details</span>
-                            <School className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            <GraduationCap className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </div>
                     </div>
 
@@ -172,7 +172,7 @@ const RunningProjects = ({ onDonateClick }: RunningProjectsProps) => {
                                 {/* Project Header */}
                                 <div className="space-y-4">
                                     <div className="inline-flex items-center gap-3 px-4 py-2 bg-primary/10 dark:bg-primary/20 rounded-full">
-                                        <School className="w-5 h-5 text-primary" />
+                                        <GraduationCap className="w-5 h-5 text-primary" />
                                         <span className="text-sm font-black text-primary uppercase tracking-wider">
                                             {t('runningProjects.school.presented')}
                                         </span>
@@ -188,7 +188,7 @@ const RunningProjects = ({ onDonateClick }: RunningProjectsProps) => {
 
                                     <div className="flex items-center gap-2 text-primary">
                                         <MapPin className="w-5 h-5" />
-                                        <span className="text-lg font-bold">Munghopir, Karachi</span>
+                                        <span className="text-lg font-bold">Karachi</span>
                                     </div>
                                 </div>
 
@@ -224,7 +224,7 @@ const RunningProjects = ({ onDonateClick }: RunningProjectsProps) => {
                                     >
                                         <div className="flex items-center gap-3">
                                             <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
-                                                <School className="w-5 h-5 text-primary" />
+                                                <GraduationCap className="w-5 h-5 text-primary" />
                                             </div>
                                             <h4 className="text-xl font-black text-foreground">
                                                 {t('runningProjects.school.educationSystem.title')}

@@ -1,13 +1,13 @@
 import {
     Droplets,
     Utensils,
-    Gift,
+    Truck,
+    Monitor,
     School,
-    Users,
-    Baby,
-    Briefcase,
-    TrendingUp,
-    Heart,
+    Home,
+    Hammer,
+    Scale,
+    Mic,
 } from 'lucide-react';
 import Education from '@/public/img/services/education.jpeg';
 import Flood from '@/public/img/services/flood.jpeg';
@@ -19,48 +19,48 @@ import Orphan from '@/public/img/services/orphan.jpg';
 
 export const serviceDetails = [
     {
-        slug: 'clean-drinking-water-supply',
+        slug: 'clean-water',
         icon: Droplets,
         image: Water
     },
     {
-        slug: 'ration-and-food-distribution',
+        slug: 'ration-distribution',
         icon: Utensils,
         image: Flood
     },
     {
-        slug: 'sacrificial-offerings-qurbani',
-        icon: Gift,
-        image: Marriage
+        slug: 'ambulance-service',
+        icon: Truck,
+        image: Flood
     },
     {
-        slug: 'education-center-establishment',
+        slug: 'computer-training',
+        icon: Monitor,
+        image: Training
+    },
+    {
+        slug: 'establish-schools',
         icon: School,
         image: Education
     },
     {
-        slug: 'vocational-center-for-women',
-        icon: Users,
+        slug: 'industrial-home',
+        icon: Home,
         image: Training
     },
     {
-        slug: 'orphan-sponsorship-and-care',
-        icon: Baby,
-        image: Orphan
+        slug: 'vocational-training',
+        icon: Hammer,
+        image: Training
     },
     {
-        slug: 'employment-opportunities',
-        icon: Briefcase,
-        image: Empolyment
-    },
-    {
-        slug: 'youth-employment-opportunities',
-        icon: TrendingUp,
-        image: Empolyment
-    },
-    {
-        slug: 'marriage-and-dowry-support',
-        icon: Heart,
+        slug: 'justice-for-poor',
+        icon: Scale,
         image: Marriage
+    },
+    {
+        slug: 'organize-seminars',
+        icon: Mic,
+        image: Education
     }
 ];

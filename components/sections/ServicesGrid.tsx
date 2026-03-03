@@ -14,7 +14,13 @@ import {
   Gift,
   Users,
   Baby,
-  TrendingUp
+  TrendingUp,
+  Truck,
+  Monitor,
+  Home,
+  Hammer,
+  Scale,
+  Mic
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n';
@@ -27,63 +33,63 @@ const ServicesGrid = () => {
       title: t('home.services.items.water.title'),
       description: t('home.services.items.water.desc'),
       icon: Droplets,
-      slug: 'clean-drinking-water-supply',
+      slug: 'clean-water',
       delay: 0
     },
     {
       title: t('home.services.items.ration.title'),
       description: t('home.services.items.ration.desc'),
       icon: Utensils,
-      slug: 'ration-and-food-distribution',
+      slug: 'ration-distribution',
       delay: 0.1
     },
     {
-      title: t('home.services.items.qurbani.title'),
-      description: t('home.services.items.qurbani.desc'),
-      icon: Gift,
-      slug: 'sacrificial-offerings-qurbani',
+      title: t('home.services.items.ambulance.title'),
+      description: t('home.services.items.ambulance.desc'),
+      icon: Truck,
+      slug: 'ambulance-service',
       delay: 0.2
     },
     {
-      title: t('home.services.items.educationCenter.title'),
-      description: t('home.services.items.educationCenter.desc'),
-      icon: School,
-      slug: 'education-center-establishment',
+      title: t('home.services.items.computer.title'),
+      description: t('home.services.items.computer.desc'),
+      icon: Monitor,
+      slug: 'computer-training',
       delay: 0.3
     },
     {
-      title: t('home.services.items.vocationalWomen.title'),
-      description: t('home.services.items.vocationalWomen.desc'),
-      icon: Users,
-      slug: 'vocational-center-for-women',
+      title: t('home.services.items.schools.title'),
+      description: t('home.services.items.schools.desc'),
+      icon: School,
+      slug: 'establish-schools',
       delay: 0.4
     },
     {
-      title: t('home.services.items.orphanCare.title'),
-      description: t('home.services.items.orphanCare.desc'),
-      icon: Baby,
-      slug: 'orphan-sponsorship-and-care',
+      title: t('home.services.items.industrial.title'),
+      description: t('home.services.items.industrial.desc'),
+      icon: Home,
+      slug: 'industrial-home',
       delay: 0.5
     },
     {
-      title: t('home.services.items.employmentGeneral.title'),
-      description: t('home.services.items.employmentGeneral.desc'),
-      icon: Briefcase,
-      slug: 'employment-opportunities',
+      title: t('home.services.items.vocational.title'),
+      description: t('home.services.items.vocational.desc'),
+      icon: Hammer,
+      slug: 'vocational-training',
       delay: 0.6
     },
     {
-      title: t('home.services.items.employmentYouth.title'),
-      description: t('home.services.items.employmentYouth.desc'),
-      icon: TrendingUp,
-      slug: 'youth-employment-opportunities',
+      title: t('home.services.items.justice.title'),
+      description: t('home.services.items.justice.desc'),
+      icon: Scale,
+      slug: 'justice-for-poor',
       delay: 0.7
     },
     {
-      title: t('home.services.items.marriageSupport.title'),
-      description: t('home.services.items.marriageSupport.desc'),
-      icon: Heart,
-      slug: 'marriage-and-dowry-support',
+      title: t('home.services.items.seminars.title'),
+      description: t('home.services.items.seminars.desc'),
+      icon: Mic,
+      slug: 'organize-seminars',
       delay: 0.8
     }
   ];

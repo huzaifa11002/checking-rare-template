@@ -119,8 +119,8 @@ const Campaigns = () => {
 
               <div className="absolute bottom-0 left-0 p-6 md:p-10 space-y-4 md:space-y-6 w-full z-20">
                 <div className="space-y-2 md:translate-y-8 md:group-hover:translate-y-0 transition-transform duration-500">
-                  <h4 className="text-[clamp(1.25rem,4vw,1.75rem)] font-black text-primary-foreground group-hover:text-primary transition-colors">{campaign.title}</h4>
-                  <p className="text-primary-foreground/60 text-sm md:text-base line-clamp-2 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500">
+                  <h4 className="text-[clamp(1.25rem,4vw,1.75rem)] font-black text-primary-foreground transition-colors">{campaign.title}</h4>
+                  <p className="text-primary-foreground text-sm md:text-base line-clamp-2 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500">
                     {campaign.description}
                   </p>
                 </div>

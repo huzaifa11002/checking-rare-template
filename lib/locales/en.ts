@@ -53,15 +53,15 @@ export const en = {
             impactPurpose: "Impact Purpose",
             options: {
                 general: "General Donation",
-                water: "Clean Drinking Water",
-                ration: "Ration & Food Supplies",
-                qurbani: "Qurbani Offerings",
-                education: "Education Center",
+                water: "Clean Water",
+                ration: "Distribution of Ration",
+                ambulance: "Ambulance Service",
+                computer: "Computer Training",
+                schools: "Establish Schools",
+                industrial: "Industrial Home",
                 vocational: "Vocational Training",
-                orphan: "Orphan Care",
-                employment: "Employment Support",
-                marriage: "Marriage Support",
-                medical: "Medical Assistance"
+                justice: "Justice Support",
+                seminars: "Seminars/Awareness"
             },
             processDonation: "PROCESS DONATION",
             trust: {
@@ -94,40 +94,40 @@ export const en = {
             learnMore: "Learn More",
             items: {
                 water: {
-                    title: "Supply of Clean Drinking Water",
-                    desc: "Providing safe and accessible drinking water to remote and water-scarce regions across Pakistan."
+                    title: "Clean Water",
+                    desc: "Providing safe and accessible drinking water through hand pumps and filtration plants across Pakistan."
                 },
                 ration: {
-                    title: "Distribution of Ration/Food Supplies",
-                    desc: "Ensuring food security for underprivileged families through monthly ration distribution and emergency food aid."
+                    title: "Distribution of Ration",
+                    desc: "Monthly distribution of essential food supplies to widows, orphans, and low-income families."
                 },
-                qurbani: {
-                    title: "Sacrificial Offerings (Qurbani)",
-                    desc: "Facilitating the religious obligation of Qurbani and distributing meat to the most deserving and needy families."
+                ambulance: {
+                    title: "Ambulance Service",
+                    desc: "24/7 emergency medical transportation services for those in urgent need of healthcare."
                 },
-                educationCenter: {
-                    title: "Establishment of an Education Center",
-                    desc: "Creating state-of-the-art educational facilities that blend modern science with moral and religious values."
+                computer: {
+                    title: "Computer Training Facility",
+                    desc: "Equipping deserving students with modern IT skills and digital literacy for a better future."
                 },
-                vocationalWomen: {
-                    title: "Establishment of a Vocational Center for Women",
-                    desc: "Empowering women with marketable skills like sewing, embroidery, and digital literacy for financial independence."
+                schools: {
+                    title: "Establish Different Schools",
+                    desc: "Setting up educational institutions that provide high-quality, free education to underprivileged children."
                 },
-                orphanCare: {
-                    title: "Sponsorship/Care of Orphaned Children",
-                    desc: "Providing comprehensive care, including education, health, and emotional support to orphaned children."
+                industrial: {
+                    title: "Industrial Home for Women",
+                    desc: "Empowering women with vocational skills like sewing and embroidery for financial independence."
                 },
-                employmentGeneral: {
-                    title: "Providing Employment Opportunities",
-                    desc: "Connecting skilled individuals with jobs and providing micro-grants for small business startups."
+                vocational: {
+                    title: "Vocational Training",
+                    desc: "Providing technical and professional training to youth for sustainable employment opportunities."
                 },
-                employmentYouth: {
-                    title: "Providing Employment Opportunities to Youth",
-                    desc: "Equipping the young generation with IT skills and professional training to excel in the modern job market."
+                justice: {
+                    title: "Justice for Poor People",
+                    desc: "Offering legal support and advocacy for the underprivileged to ensure their rights are protected."
                 },
-                marriageSupport: {
-                    title: "Marriage and Dowry Support",
-                    desc: "Supporting deserving couples by providing essential household items and financial assistance for a dignified wedding."
+                seminars: {
+                    title: "To Organize Seminars",
+                    desc: "Conducting awareness programs and educational seminars on social, religious, and moral development."
                 }
             }
         },
@@ -193,94 +193,94 @@ export const en = {
         }
     },
     servicesData: {
-        'clean-drinking-water-supply': {
-            title: 'Supply of Clean Drinking Water',
+        'clean-water': {
+            title: 'Clean Water',
             description: 'Rare Foundation Trust is dedicated to solving the water crisis in underserved areas across Pakistan.',
             fullContent: 'Rare Foundation Trust is dedicated to solving the water crisis in underserved areas. We install hand pumps, solar-powered wells, and water filtration plants to ensure that every family has access to clean and safe drinking water, reducing waterborne diseases and improving quality of life.',
             features: [
                 { title: 'Hand Pump Installation', text: 'Providing localized water access for families.' },
-                { title: 'Solar Water Wells', text: 'Utilizing renewable energy for sustainable water supply in desert regions.' },
+                { title: 'Solar Water Wells', text: 'Utilizing renewable energy for sustainable water supply.' },
                 { title: 'Water Quality Testing', text: 'Ensuring all sources meet health and safety standards.' }
             ]
         },
-        'ration-and-food-distribution': {
-            title: 'Distribution of Ration/Food Supplies',
+        'ration-distribution': {
+            title: 'Distribution of Ration',
             description: 'Ensuring food security for underprivileged families through monthly ration distribution.',
             fullContent: 'We believe that no one should go hungry. Our food distribution program provides essential monthly rations (flour, oil, pulses, sugar, etc.) to widows, orphans, and low-income families. During Ramadan and emergencies, we expand our reach to serve thousands of deserving individuals.',
             features: [
                 { title: 'Monthly Food Packs', text: 'Consistent support for registered families.' },
                 { title: 'Emergency Food Relief', text: 'Immediate response during natural disasters.' },
-                { title: 'Nutritional Balance', text: 'Selecting high-quality, essential food items for health.' }
+                { title: 'Nutritional Balance', text: 'Selecting high-quality, essential food items.' }
             ]
         },
-        'sacrificial-offerings-qurbani': {
-            title: 'Sacrificial Offerings (Qurbani)',
-            description: 'Facilitating the religious obligation of Qurbani and distributing meat to those in need.',
-            fullContent: 'Every year, Rare Foundation Trust organizes collective Qurbani to help donors fulfill their religious duty. The sacrificial meat is carefully processed and distributed to thousands of families in rural and urban slums who rarely have access to meat, bringing joy and nutrition to their homes.',
+        'ambulance-service': {
+            title: 'Ambulance Service',
+            description: 'Providing 24/7 emergency medical transportation services.',
+            fullContent: 'Our ambulance service is dedicated to saving lives by providing rapid and reliable emergency medical transportation. We operate a fleet of well-equipped ambulances that serve the underprivileged communities, ensuring they reach medical facilities in time during critical situations.',
             features: [
-                { title: 'Strict Shariah Compliance', text: 'Ensuring animals meet all religious requirements.' },
-                { title: 'Hygienic Processing', text: 'Maintaining high standards of cleanliness during sacrifice.' },
-                { title: 'Wide Reach', text: 'Distributing meat to the most remote and neglected areas.' }
+                { title: '24/7 Availability', text: 'Operated round the clock for emergencies.' },
+                { title: 'Trained Paramedics', text: 'Our staff is trained to provide basic life support.' },
+                { title: 'Rapid Response', text: 'Minimizing response time to save lives.' }
             ]
         },
-        'education-center-establishment': {
-            title: 'Establishment of an Education Center',
-            description: 'Creating educational facilities that blend modern science with moral values.',
-            fullContent: 'Our education centers are designed to be beacons of hope. We establish schools and learning centers in areas where access to quality education is limited. Our curriculum focuses on character building, modern technology, and academic excellence to prepare children for a successful future.',
+        'computer-training': {
+            title: 'Computer Training Facility',
+            description: 'Equipping students with modern IT skills and digital literacy.',
+            fullContent: 'In the digital age, computer literacy is a fundamental right. Our training facility provides students from underprivileged backgrounds with hands-on experience in basic computing, office software, and digital communication, opening doors to better educational and career opportunities.',
+            features: [
+                { title: 'Modern IT Lab', text: 'Equipped with the latest hardware and software.' },
+                { title: 'Certified Courses', text: 'Providing certificates to enhance employability.' },
+                { title: 'Skill-Based Learning', text: 'Focusing on practical skills used in the modern workforce.' }
+            ]
+        },
+        'establish-schools': {
+            title: 'Establish Different Schools',
+            description: 'Creating educational institutions that provide high-quality, free education.',
+            fullContent: 'We are committed to building a brighter future through education. By establishing schools in remote and underserved areas, we provide children with access to quality education, modern curricula, and a nurturing environment that fosters both academic and moral growth.',
             features: [
                 { title: 'Free Quality Education', text: 'Removing financial barriers for talented children.' },
-                { title: 'Modern Infrastructure', text: 'Equipping centers with computers and libraries.' },
-                { title: 'Teacher Training', text: 'Investing in educators to maintain high teaching standards.' }
+                { title: 'Modern Curriculum', text: 'Blending contemporary subjects with ethical values.' },
+                { title: 'Resource Rich', text: 'Providing books, uniforms, and learning materials.' }
             ]
         },
-        'vocational-center-for-women': {
-            title: 'Vocational Center for Women',
-            description: 'Empowering women with marketable skills for financial independence.',
-            fullContent: 'We aim to make women self-reliant by providing them with specialized vocational training. Our centers offer courses in tailoring, handicrafts, and IT, enabling women to earn a dignified livelihood from their homes or local workshops, thereby uplifting their families.',
+        'industrial-home': {
+            title: 'Industrial Home for Women',
+            description: 'Empowering women with vocational skills for financial independence.',
+            fullContent: 'Our Industrial Home is a center of empowerment. We provide women with training in tailoring, embroidery, and other handicrafts. This enables them to earn a dignified livelihood, support their families, and contribute positively to the economic stability of their households.',
             features: [
-                { title: 'Skill Certification', text: 'Providing recognized certificates for better job prospects.' },
-                { title: 'Free Equipment Distribution', text: 'Giving sewing machines to graduates.' },
-                { title: 'Safe Learning Environment', text: 'Dedicated spaces for women\'s comfort and growth.' }
+                { title: 'Vocational Training', text: 'Expert instruction in sewing and handicrafts.' },
+                { title: 'Income Generation', text: 'Helping women market and sell their creations.' },
+                { title: 'Supportive Community', text: 'A safe space for women to learn and grow together.' }
             ]
         },
-        'orphan-sponsorship-and-care': {
-            title: 'Sponsorship/Care of Orphaned Children',
-            description: 'Providing comprehensive care, including education and healthcare to orphaned children.',
-            fullContent: 'Orphans are among the most vulnerable members of society. Rare Foundation Trust provides a nurturing environment for them, covering all their needs from schooling and healthcare to clothing and nutrition. We treat every sponsored child as part of our own family.',
+        'vocational-training': {
+            title: 'Vocational Training',
+            description: 'Providing technical and professional training to youth.',
+            fullContent: 'Our vocational training programs are designed to bridge the gap between education and employment. We offer specialized courses in various technical trades, ensuring that the youth are equipped with marketable skills that lead to sustainable and dignified careers.',
             features: [
-                { title: 'Personal Sponsorship', text: 'Connecting donors directly with a child’s progress.' },
-                { title: 'Healthcare Access', text: 'Regular medical check-ups and therapeutic support.' },
-                { title: 'Dignified Upbringing', text: 'Focus on emotional well-being and moral guidance.' }
+                { title: 'Technical Trades', text: 'Training in electrical, plumbing, and mechanical skills.' },
+                { title: 'Career Pathing', text: 'Guiding students toward stable employment.' },
+                { title: 'Hands-on Experience', text: 'Practical training with industry-standard tools.' }
             ]
         },
-        'employment-opportunities': {
-            title: 'Providing Employment Opportunities',
-            description: 'Connecting individuals with jobs and producing micro-grants for startups.',
-            fullContent: 'Our employment program focuses on moving families from dependency to self-sufficiency. We assist people in finding suitable jobs and provide financial support for small business ventures like rickshaws, small shops, or toolkits, ensuring long-term dignity.',
+        'justice-for-poor': {
+            title: 'Justice for Poor People',
+            description: 'Offering legal support and advocacy for the underprivileged.',
+            fullContent: 'Access to justice should not be a privilege of the wealthy. Our legal aid cell provides free legal consultation and representation to the underprivileged, helping them navigate the complex legal system and protect their fundamental human and civil rights.',
             features: [
-                { title: 'Job Placement Assistance', text: 'Partnering with industries to find vacancies.' },
-                { title: 'Small Business Grants', text: 'Providing capital for micro-entrepreneurship.' },
-                { title: 'Tools of Trade', text: 'Donating equipment like toolsets and carts.' }
+                { title: 'Free Legal Aid', text: 'Consultation with experienced legal professionals.' },
+                { title: 'Rights Awareness', text: 'Educating communities about their legal rights.' },
+                { title: 'Mediation Services', text: 'Helping resolve disputes through communal dialogue.' }
             ]
         },
-        'youth-employment-opportunities': {
-            title: 'Providing Employment Opportunities to Youth',
-            description: 'Equipping the young generation with IT skills and professional training.',
-            fullContent: 'The youth are Pakistan\'s future. We bridge the gap between education and employment by providing specialized IT training, freelancing courses, and professional workshops. Our goal is to empower young men and women to compete in the global digital economy.',
+        'organize-seminars': {
+            title: 'To Organize Seminars',
+            description: 'Conducting awareness programs and educational seminars.',
+            fullContent: 'We believe in the power of knowledge and awareness. We regularly organize seminars and workshops on health, education, moral values, and social responsibilities. These events bring together experts and community members to foster learning and positive social change.',
             features: [
-                { title: 'Digital Skills Training', text: 'Courses in coding, graphic design, and marketing.' },
-                { title: 'Career Counseling', text: 'Mentoring students on career paths and interview skills.' },
-                { title: 'Freelancing Support', text: 'Training on how to earn from global platforms.' }
-            ]
-        },
-        'marriage-and-dowry-support': {
-            title: 'Marriage and Dowry Support',
-            description: 'Supporting deserving couples with essential items for a dignified wedding.',
-            fullContent: 'Marriage is a sacred bond, but for many poor families, the financial burden of dowry and wedding expenses is overwhelming. Rare Foundation Trust provides essential household items (sets of beds, kitchenware, etc.) and covers wedding costs to help couples start their lives with dignity.',
-            features: [
-                { title: 'Essential Household Items', text: 'Providing basic furniture and kitchen appliances.' },
-                { title: 'Financial Assistance', text: 'Helping with wedding ceremony expenses.' },
-                { title: 'Community Weddings', text: 'Organizing mass wedding events to reduce costs further.' }
+                { title: 'Awareness Campaigns', text: 'Seminars focused on health, hygiene, and social issues.' },
+                { title: 'Guest Lectures', text: 'Bringing in experts to share valuable insights.' },
+                { title: 'Community Engagement', text: 'Interactive sessions to address local concerns.' }
             ]
         }
     },
@@ -365,16 +365,16 @@ export const en = {
                 description: "We aim to build a safe and dignified shelter home for homeless and needy individuals. Currently, we do not have any shelter facility, so we need support and funding to establish this essential project."
             },
             {
-                title: "Mobile Medical Units",
-                description: "We aim to launch Mobile Medical Units to provide basic healthcare, medicines, and check-ups in remote and underserved areas. Currently, we do not have any medical unit, so we need support and funding to start this initiative."
-            },
-            {
-                title: "Orphan Sponsorship Program",
-                description: "We aim to launch a complete Orphan Sponsorship Program to cover the education, nutrition, healthcare, and essential needs of orphaned children. We require continuous support and sponsorships to sustain this noble initiative."
-            },
-            {
                 title: "Clean Water Supply Projects",
                 description: "Alhamdulillah! So far, we have successfully completed 210 units, including water tank and hand pumps, in various areas. These projects have greatly benefited families and communities facing water shortages. We seek support to expand this service to more deserving areas."
+            },
+            {
+                title: "Deserving Student Sponsorship",
+                description: "We aim to launch a comprehensive sponsorship program for deserving students to cover their educational expenses, books, and uniforms, ensuring that financial constraints do not hinder their pursuit of knowledge."
+            },
+            {
+                title: "Industrial Home for Women and General",
+                description: "We plan to establish an Industrial Home to empower women with vocational skills like sewing, embroidery, and handicrafts, enabling them to earn a dignified livelihood and contribute to their family's income."
             }
         ]
     },
@@ -382,45 +382,45 @@ export const en = {
         title: "Our Running Projects",
         subtitle: "Currently making a difference in the lives of hundreds",
         school: {
-            name: "Rare Foundation Islamic School",
-            tagline: "A Comprehensive Educational Center",
+            name: "Vocational Training Center",
+            tagline: "Empowering Youth Through Skill Development",
             presented: "Presented by: Rare Foundation Trust",
             introduction: {
                 title: "Introduction",
-                text: "Al-rare Islamic School is an educational institution that combines Islamic and modern education to provide all-round education to students. Our goal is to produce a generation that can play a positive role in society by being equipped with worldly knowledge in the light of religion."
+                text: "Our Vocational Training Center provides free, high-quality technical education to underprivileged youth. We focus on teaching practical skills that enable students to build sustainable careers and support their families."
             },
             educationSystem: {
-                title: "Education System",
-                text: "In addition to religious education based on the Quran and Sunnah, English, science, mathematics, computers and other contemporary subjects are also taught with full attention in the school. This education system not only makes children good and righteous human beings but also leads them towards a bright future."
+                title: "Training Programs",
+                text: "We offer courses in various trades including computer hardware, mobile repairing, tailoring, and electrical works. Our curriculum balances theoretical knowledge with extensive hands-on training using modern tools and equipment."
             },
             stats: {
                 teachers: {
-                    count: "23",
-                    label: "Dedicated Teachers",
-                    description: "Hardworking and capable teachers are serving in the school, who consider the education of children as their religious duty."
+                    count: "15",
+                    label: "Skilled Instructors",
+                    description: "Industry experts and experienced trainers dedicated to teaching professional skills to our students."
                 },
                 students: {
-                    count: "300+",
+                    count: "250+",
                     label: "Students Enrolled",
-                    description: "Boys and girls are studying in the school with dedication and enthusiasm."
+                    description: "Young individuals actively learning diverse trades to secure their economic future."
                 },
                 residential: {
-                    count: "70",
-                    label: "Residential Students",
-                    description: "Children are fully resident, whose entire expenses of education, food, clothing, shelter and other necessities are borne by the Trust."
+                    count: "50",
+                    label: "Residential Trainees",
+                    description: "Students from remote areas whose education, housing, and food expenses are fully covered by the Trust."
                 }
             },
             freeEducation: {
-                title: "Completely Free Education",
-                text: "Education at Al-rare Islamic School is provided completely free of cost so that the future of any poor child is not bleak just because of poverty."
+                title: "100% Free Training",
+                text: "All our vocational programs are completely free of charge, ensuring that financial constraints never stand in the way of learning a valuable skill."
             },
             support: {
-                title: "Your Help is Needed",
-                text: "We desperately need your support and donations to continue this great mission. Your help in meeting the increasing expenses every month, sponsoring residential students, paying teachers' salaries and providing educational resources is a lifeline for us."
+                title: "Support Our Mission",
+                text: "We need your help to upgrade our training equipment, purchase raw materials for workshops, and expand our reach to more deserving students across the region."
             },
             cta: {
-                title: "Come, Brighten the Future of a Child",
-                text: "A single donation from you can change the life of an orphan or a needy child. Come, join us in this good deed and earn success in this world and the hereafter.",
+                title: "Gift a Skill, Change a Life",
+                text: "Your donation can provide a young person with the tools and training they need to earn a dignified living. Join us in building a self-reliant community.",
                 button: "Support This Project"
             }
         }
@@ -448,38 +448,24 @@ export const en = {
             goBack: "Go Back",
             support: "Support Our Work",
             members: {
-                ceo: {
-                    name: 'Mufti Muhammad Atif Naseer',
-                    role: 'CEO',
-                    shortBio: "Visionary leader dedicated to spiritual and humanitarian upliftment.",
-                    fullBio: "Mufti Muhammad Atif Naseer is a committed Islamic scholar and a visionary leader, who serves as the founder and chairman of the Rare Foundation Trust. His dedication to education and social welfare has played a pivotal role in the growth and success of the organization. With a profound understanding of Islamic teachings and a fervent passion for community service, Mufti Atif Naseer has led numerous initiatives aimed at delivering quality education, humanitarian assistance, and community development."
+                president: {
+                    name: 'Rehan Abbasi',
+                    role: 'President',
+                    shortBio: "A dynamic leader with a strong focus on community service and development.",
+                    fullBio: "Rehan Abbasi is a dedicated social worker and a passionate advocate for community development. With years of experience in the non-profit sector, he has led numerous initiatives aimed at improving the lives of underprivileged communities. His leadership is characterized by integrity, compassion, and a strong commitment to social justice."
                 },
-                sarfaraz: {
-                    name: 'Muhammad Sarfaraz Ahmed',
+                financeSecretary: {
+                    name: 'Sharjeel  Ahmed',
+                    role: 'Finance Secretary',
+                    shortBio: "A dynamic leader with a strong focus on community service and development.",
+                    fullBio: "Sharjeel Ahmed is a dedicated social worker and a passionate advocate for community development. With years of experience in the non-profit sector, he has led numerous initiatives aimed at improving the lives of underprivileged communities. His leadership is characterized by integrity, compassion, and a strong commitment to social justice."
+                },
+                generalSecretary: {
+                    name: 'Muhammad Ilyas Zakaria',
                     role: 'General Secretary',
-                    shortBio: "Strategic advisor ensuring governance and organizational excellence.",
-                    fullBio: "Muhammad Sarfaraz, the driving force behind Rare Foundation Trust. He's been with the organization ever since it started back in 2011, serving as our General Secretary with a lot of heart and commitment. Over the years, he's been key in helping the Foundation grow into a bright and trusted organization that's really making a difference in people's lives through various humanitarian projects. He holds a Bachelor's degree in Commerce, which gives him a solid understanding of finances and administration. But what really sets him apart is his natural leadership and genuine passion for helping others. He's careful about making sure every rupee sent to the Trust is used wisely, transparently, and effectively. One of his major focuses has been on water projects—something that's critical but often overlooked in many rural parts of Pakistan. Under his guidance, the Foundation has set up numerous water supply initiatives: - Installing hundreds of hand pumps in water-scarce villages, so families can get clean drinking water right at their doorstep. Each one is carefully placed based on surveys to maximize benefits. - Digging deep water wells in areas where hand pumps aren’t enough, especially in drought-prone regions like Sindh, Baluchistan, and Southern Punjab. Sarfaraz personally oversees the entire process—from choosing sites to making sure they're maintained. - Promoting solar-powered water systems to ensure sustainable water access, even in off-grid locations with limited energy. Beyond water, Sarfaraz has put a lot of effort into building and renovating mosques in underserved communities. Under his leadership, many new mosques have gone up, and existing ones have been upgraded—especially in poor rural areas where there's little access to prayer spaces, Islamic education, or community gathering spots. These mosques are now more than places to pray; they're centers for learning, peace, and social unity. Every project is personalized to local needs—complete with proper ablution areas, shaded prayer spaces, and sometimes dedicated rooms for Qur’an classes. What really makes Muhammad Sarfaraz stand out is his hands-on approach. He doesn’t just stay at his desk; he often visits projects in the field, talks directly with the people benefiting from the work, checks the progress, and listens to their needs. His sincerity and humility have earned him the trust and respect of everyone—beneficiaries, donors, and team members alike. His leadership keeps the mission of the Trust alive and active, driven by the core idea: Serving Humanity with Honesty and Trust."
-                },
-                babar: {
-                    name: 'Muhammad Babar Naseer',
-                    role: 'Administrator/Project Manager',
-                    shortBio: "Expert project manager driving sustainable community development.",
-                    fullBio: `Muhammad Babar Naseer is currently serving as the Project Manager of Rare Foundation, a position that places him at the core of the trust’s operational and strategic initiatives. His role encompasses a wide range of responsibilities including project planning, execution, supervision, and evaluation of the trust's key welfare programs. Through his proactive management and dedication, he ensures that every project under the trust’s umbrella is implemented efficiently and effectively, reaching the communities that need them most.
-With a strong academic background and hands-on experience in the nonprofit sector, Muhammad Babar Naseer has become an essential driving force behind Rare Foundation’s growing impact across Pakistan. His leadership style is rooted in transparency, accountability, and compassion — values that reflect the very mission of the trust.
-Under his supervision, Rare Foundation has successfully launched and sustained multiple community development programs. These include:
-•	Educational Projects: Establishment and management of free schools and literacy centers for underprivileged children.
-•	Health Services: Organizing medical camps, providing free medicines, and facilitating access to essential healthcare services in remote areas.
-•	Water & Sanitation: Initiatives to provide clean drinking water through hand pumps, water filtration plants, and hygiene awareness.
-•	Emergency Relief: Coordinating rapid response efforts during natural disasters, including food distribution, shelter provision, and medical support.
-Babar Naseer's ability to mobilize teams, engage local communities, and work closely with donors and stakeholders has been critical to the expansion and success of these initiatives. He actively monitors field operations and maintains close communication with regional coordinators to ensure that every activity aligns with the trust's core values of integrity, empathy, and service.
-Beyond project implementation, Muhammad Babar Naseer is also involved in strategic planning and organizational development. He contributes to long-term goal setting, partnership building, and volunteer coordination—ensuring that Rare Foundation remains sustainable and impactful.
-His unwavering commitment to humanitarian values and his hands-on approach to problem-solving have earned him respect within the organization and among the communities it serves. Through his role, Muhammad Babar Naseer continues to be a beacon of hope for countless families, embodying the trust’s vision of "Serving Humanity with Honesty and Trust."`
-                },
-                dawood: {
-                    name: 'Dawood Siddique',
-                    role: 'Social Media Manager',
-                    shortBio: "Tech entrepreneur and digital strategist focused on impactful storytelling.",
-                    fullBio: "My name is Muhammad Dawood Siddiqui, and I am a web developer and tech entrepreneur with a strong passion for building modern digital solutions. I specialize in HTML, CSS, JavaScript, TypeScript, Node.js, React.js, and Next.js, and I focus on creating fast, responsive, and user-friendly websites and applications.I am the CEO of a digital services company where we provide website development, hosting, digital marketing, graphic designing, and poster design services to help businesses grow online. I have been an active participant in the Governor IT Initiative, where I improved my technical skills and was honored as a Rising Star for my performance. I have also completed hackathon projects and continue to work on real-world applications, including my startup portfolio and advanced web designs. Currently, I am working at Rare Foundation Organization, VISION HEALTH CARE FOUNDATION and many more organizations as a Social Media Manager, where I handle digital campaigns, content strategy, and online brand growth. I am deeply interested in UI/UX design and always aim to combine clean design with strong functionality enjoy learning new technologies and applying them to solve real problems and create impactful digital experiences."
+                    shortBio: "A dynamic leader with a strong focus on community service and development.",
+                    fullBio: "Muhammad Ilyas Zakaria is currently serving as the general secretary of Rare Foundation, a position that places him at the core of the trust’s operational and strategic initiatives. His role encompasses a wide range of responsibilities including project planning, execution, supervision, and evaluation of the trust's key welfare programs. Through his proactive management and dedication, he ensures that every project under the trust’s umbrella is implemented efficiently and effectively, reaching the communities that need them most. With a strong academic background and hands-on experience in the nonprofit sector, Muhammad Ilyas Zakaria has become an essential driving force behind Rare Foundation’s growing impact across Pakistan. His leadership style is rooted in transparency, accountability, and compassion — values that reflect the very mission of the trust. Under his supervision, Rare Foundation has successfully launched and sustained multiple community development programs. These include: • Educational Projects: Establishment and management of free schools and literacy centers for underprivileged children. • Health Services: Organizing medical camps, providing free medicines, and facilitating access to essential healthcare services in remote areas. • Water & Sanitation: Initiatives to provide clean drinking water through hand pumps, water filtration plants, and hygiene awareness. • Emergency Relief: Coordinating rapid response efforts during natural disasters, including food distribution, shelter provision, and medical support."
+
                 }
             },
             messageModal: {

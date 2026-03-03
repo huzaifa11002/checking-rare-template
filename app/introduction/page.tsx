@@ -4,10 +4,11 @@ import { useDonation } from '@/components/providers/DonationProvider';
 import { useTranslation } from 'react-i18next';
 import '@/lib/i18n';
 
-// Import images
-import ViceChairman from '@/public/img/ceo-image/vice-chairmain.jpeg';
-import Chairman from '@/public/img/ceo-image/chairman.jpeg';
-import FinanceSecretary from '@/public/img/ceo-image/finance-secretary.jpeg';
+
+//Team Images
+import President from '@/public/img/team-img/president.jpeg';
+import FinanceSecretary from '@/public/img/team-img/finance-secretary.jpeg';
+import GeneralSecretary from '@/public/img/team-img/general-secretary.jpeg';
 
 // Import components
 import PageHeader from '@/components/sections/PageHeader';
@@ -25,31 +26,31 @@ const IntroductionPage = () => {
 
   const teamMembers = [
     {
-      id: 'ceo',
-      name: t('introduction.team.members.ceo.name'),
-      role: t('introduction.team.members.ceo.role'),
-      image: FinanceSecretary,
+      id: 'president',
+      name: t('introduction.team.members.president.name'),
+      role: t('introduction.team.members.president.role'),
+      image: President,
       delay: 0,
-      shortBio: t('introduction.team.members.ceo.shortBio'),
-      fullBio: t('introduction.team.members.ceo.fullBio')
+      shortBio: t('introduction.team.members.president.shortBio'),
+      fullBio: t('introduction.team.members.president.fullBio')
     },
     {
-      id: 'sarfaraz',
-      name: t('introduction.team.members.sarfaraz.name'),
-      role: t('introduction.team.members.sarfaraz.role'),
-      image: ViceChairman,
+      id: 'financeSecretary',
+      name: t('introduction.team.members.financeSecretary.name'),
+      role: t('introduction.team.members.financeSecretary.role'),
+      image: FinanceSecretary,
       delay: 0.2,
-      shortBio: t('introduction.team.members.sarfaraz.shortBio'),
-      fullBio: t('introduction.team.members.sarfaraz.fullBio')
+      shortBio: t('introduction.team.members.financeSecretary.shortBio'),
+      fullBio: t('introduction.team.members.financeSecretary.fullBio')
     },
     {
-      id: 'babar',
-      name: t('introduction.team.members.babar.name'),
-      role: t('introduction.team.members.babar.role'),
-      image: Chairman,
+      id: 'generalSecretary',
+      name: t('introduction.team.members.generalSecretary.name'),
+      role: t('introduction.team.members.generalSecretary.role'),
+      image: GeneralSecretary,
       delay: 0.1,
-      shortBio: t('introduction.team.members.babar.shortBio'),
-      fullBio: t('introduction.team.members.babar.fullBio')
+      shortBio: t('introduction.team.members.generalSecretary.shortBio'),
+      fullBio: t('introduction.team.members.generalSecretary.fullBio')
     },
   ];
 
