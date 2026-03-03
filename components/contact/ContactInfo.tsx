@@ -25,7 +25,7 @@ const ContactInfo = () => {
             {/* Map Placeholder/Iframe */}
             <div className="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-border h-96 relative group">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3618.4591213434996!2d67.09570877537269!3d24.91642467789276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDU0JzU5LjEiTiA2N8KwMDUnNTMuOCJF!5e0!3m2!1sen!2s!4v1739300431629!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226.37325756238494!2d67.0511872971512!3d24.796408148215303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ce345c465eb%3A0xc6ab9c809abff82d!2s3C%20Khayaban-e-Seher%2C%20D.H.A%20Phase%206%20Shahbaz%20Commercial%20Area%20Phase%206%20Defence%20Housing%20Authority%2C%20Karachi%2C%2075500%2C%20Pakistan!5e0!3m2!1sen!2s!4v1772573986931!5m2!1sen!2s"
                     width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy"
                     className="grayscale hover:grayscale-0 transition-all duration-700"
                 ></iframe>

@@ -19,7 +19,7 @@ export const en = {
         quickLinks: "Quick Links",
         whatWeDo: "What We Do",
         contactDetail: "Contact Detail",
-        address: "rare foundation trust, karachi, pakistan",
+        address: "3C Building, Khayaban-e-Seher, Phase 6, DHA, Karachi, Pakistan",
         copyright: "Rare Foundation Trust. All rights reserved.",
         developedBy: "Developed by",
         techHarf: "Tech Harf",
@@ -455,7 +455,7 @@ export const en = {
                     fullBio: "Rehan Abbasi is a dedicated social worker and a passionate advocate for community development. With years of experience in the non-profit sector, he has led numerous initiatives aimed at improving the lives of underprivileged communities. His leadership is characterized by integrity, compassion, and a strong commitment to social justice."
                 },
                 financeSecretary: {
-                    name: 'Sharjeel  Ahmed',
+                    name: 'Sharjeel Ahmed',
                     role: 'Finance Secretary',
                     shortBio: "A dynamic leader with a strong focus on community service and development.",
                     fullBio: "Sharjeel Ahmed is a dedicated social worker and a passionate advocate for community development. With years of experience in the non-profit sector, he has led numerous initiatives aimed at improving the lives of underprivileged communities. His leadership is characterized by integrity, compassion, and a strong commitment to social justice."
